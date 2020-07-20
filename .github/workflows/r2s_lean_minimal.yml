@@ -73,8 +73,6 @@ jobs:
           CONFIG_PACKAGE_pigz=y
           CONFIG_PACKAGE_unzip=y
           CONFIG_PACKAGE_losetup=y
-          CONFIG_PACKAGE_libnetsnmp=y
-          CONFIG_PACKAGE_snmpd=y
           CONFIG_LIBSODIUM_MINIMAL=y
           CONFIG_LUCI_LANG_zh-cn=y
           # CONFIG_LUCI_LANG_en is not set
