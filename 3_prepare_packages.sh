@@ -17,3 +17,6 @@ fi
 #dnsmasq.ssr/gfw_base.conf
 #dnsmasq.ssr/gfw_list.conf' | xargs rm
 #cd ../../../
+
+svn co https://github.com/project-openwrt/packages/trunk/libs/nss
+svn co https://github.com/project-openwrt/packages/trunk/libs/nspr #temporary fix
