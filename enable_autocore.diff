@@ -35,8 +35,8 @@ index 614e21761..90f9f52dd 100755
  		ethtool -K $c ufo on >/dev/null 2>&1
 diff --git a/package/lean/autocore/files/index.htm b/package/lean/autocore/files/x86/index.htm
 index c24224cb3..e7da9b7a6 100644
---- a/package/lean/autocore/files/index.htm
-+++ b/package/lean/autocore/files/index.htm
+--- a/package/lean/autocore/files/x86/index.htm
++++ b/package/lean/autocore/files/x86/index.htm
 @@ -718,6 +718,7 @@
  		<tr><td width="33%"><%:Firmware Version%></td><td>
  			<%=pcdata(ver.distname)%> <%=pcdata(ver.distversion)%> /
