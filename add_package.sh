@@ -1,6 +1,8 @@
 cd friendlywrt-rk3328/friendlywrt
 git clone https://github.com/xiaorouji/openwrt-package.git
 mv openwrt-package/lienol/luci-app-passwall/ ./package
+git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic.git
+mv luci-app-unblockneteasemusic/ ./package
 git clone https://github.com/songchenwen/nanopi-r2s.git
 mv nanopi-r2s/luci-app-r2sflasher/ ./package
 rm -rf nanopi-r2s/
